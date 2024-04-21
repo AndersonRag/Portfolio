@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/site.webmanifest">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/proprieties.css">
+    <link rel="stylesheet" href="./assets/css/KeyFrames.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="hamburguer" id="Close-menu">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+       
+        
+        <header>
+            <div class="img">
+                <img id="img_rendonda" src="assets/images/eu.JPEG" alt="" width="400px" height="390px">
+            </div>
+             
+            <div class="img-wrapper">
+                <img src="./assets/images/backgroundimg.jpg" alt="">
+            </div>
+            <div class="banner">
+                <p>Olá! meu nome é</p>
+                <h1 class="title-style">Anderson Ramos</h1>  
+                <p>Estudante de Análise e Desenvolvimento de Sistemas.</p>
+                <br><br>
+                <a class="ButtonCustom" id="button-banner" href="/Curriculo/Anderson.pdf" download="Curriculo.pdf">Download CV</a>
+            </div> 
+
+        </header>
+
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li id="menu-1" class="menu-item"><a id="Close-menu" href="#" class="menu-link">home</a></li>
+                    <li id="menu-2" class="menu-item"><a id="Close-menu" href="#conhecimentos" class="menu-link">conhecimentos</a></li>
+                    <li id="menu-3" class="menu-item"><a id="Close-menu" href="#projetos" class="menu-link">projetos</a></li>
+                    <li id="menu-4" class="menu-item"><a id="Close-menu" href="#contato" class="menu-link">contato</a></li>
+                    <li id="menu-5" class="menu-item"><a id="Close-menu" href="#biografia" class="menu-link">biografia</a></li>
+                    
+                    
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a id="social-1" href="https://github.com/AndersonRag"><i class="fab fa-github"></i></a>
+                <a id="social-2" href="https://www.instagram.com/ander.rag/?hl=pt-br"><i class="fab fa-instagram"></i></a>
+                <a id="social-3" href="https://www.linkedin.com/in/anderson-ramos-49068b244/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </aside>
+
+        <section class="sessao-conhecimentos" >
+            <div class="sessao-header"id="conhecimentos">
+                <h1 class="title-style">Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>estruturando e criando conteúdo em páginas web. Adquirindo habilidades para desenvolver interfaces simples e funcionais.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="right">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>Css</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>fundamentos de CSS para estilizar e dar vida às páginas da web. Descobrindo como criar layouts e aplicar estilos para melhorar a experiência do usuário..</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Iniciando minha jornada no desenvolvimento web com JavaScript. criando interações dinâmicas em páginas da web</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github"></i>
+                        <h3>Git e Github</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Explorando o GitHub como plataforma para compartilhar e colaborar em projetos de código aberto</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="right">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-android"></i>
+                        <h3>Kotlin</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Explorando os fundamentos de Kotlin para desenvolvimento de software.Em constante aprendizado.</p>
+                    </div>
+                </div>
+                <div class="imagemFundo">
+                    <i class="fa-solid fa-laptop-code"></i>                
+                </div>
+        </section>
+        <section class="sessao-projetos" id="projetos" >
+            <div class="projetos-header">
+                <h1>Projetos</h1>
+            </div>
+            <div class="cards">
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/proj1.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>Cadastro e Login</h2>
+                            <h3>API</h3>
+                            <p>Api utilizando o XAMPP</p>
+                            <a href="https://github.com/AndersonRag/APIcadastrologin"><button class="ButtonSend">Saiba mais</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/jogo3.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>Game</h2>
+                            <h3>JavaScript</h3>
+                            <P>Jogo sobre o desafio do dia a dia dentro de uma empresa com foco em 5S. </P>
+                            <a href="https://andersonrag.github.io/Game/"><button class="ButtonSend">Saiba mais</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/mapss.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>API Google Maps</h2>
+                            <h3>HTML, CSS, JAVASCRIPT</h3>
+                            <P>Projeto usando a propria api do google. </P>
+                            <a href="https://andersonrag.github.io/APIGoogleMaps/"><button class="ButtonSend">Saiba mais</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/senha4.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>Gerador de Senhas</h2>
+                            <h3>HTML, CSS, JAVASCRIPT</h3>
+                            <P>Gerador de senhas com opções de acordo com o usuário necessita.</P>
+                            <a href="https://andersonrag.github.io/GeradorDeSenhas/"><button class="ButtonSend">Saiba mais</button></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        
+
+        <section class="section-contact" id="contato">
+            <div class="contact-wrapper" data-anime="up">
+                <div class="contact-left"></div>
+                <div class="contact-right">
+                    <h1>contato</h1>
+                    <form class="form-contact">
+                        <div class="input-group">
+                            <input id="nome" type="text" class="field">
+                            <label  for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input id="email" type="email" class="field">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="mensage" class="field"></textarea>
+                            <label for="mensage" class="field-label">Mensagem</label>
+                        </div>
+                        <button class="ButtonCustom" type="send">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-budget" id="biografia">
+            <div class="box"></div>
+            <div class="budget-wrapper">
+                <div class="header-budget" data-anime="left">
+                    <h1>Biografia</h1>
+                </div>
+                
+                <form class="form-budget">
+                    
+                    <div class="qtde-page" data-anime="right" >
+                        <p>
+                            Após anos trabalhando em outro segmento, tive a oportunidade de voltar a estudar e percebi o que realmente estava perdendo. Atualmente, estudo Análise e Desenvolvimento de Sistemas, uma das áreas da tecnologia que sempre me interessou. 
+                        </p>
+                        <br><br>
+                        <p>
+                            Estou buscando minha primeira experiência no mercado de trabalho. Gosto de atividades nas quais posso me dedicar e busco aprender coisas novas e aperfeiçoar minhas habilidades
+                        </p>
+                        <br><br>
+                        <p>Sou uma pessoa tranquila que aprecia passar tempo em casa com minha família, jogar video game, assistir filmes e séries. Um dos meus passatempos favoritos é jogar xadrez.</p>
+                       
+                    </div>
+                    
+                     
+                </form>
+        </section>
+
+        <footer>
+            <div class="footer--area">
+                <div class="footer--item area1">
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/anderson-ramos-49068b244/"><img src="assets/images/linkedin.png" /></a>
+                        <a href="https://www.facebook.com/anderson.wellington.75"><img src="assets/images/facebook.png" /></a>
+                    </div>
+                </div>
+                <div class="footer--item area2">
+                    <p> &copy; 2023 Copyright com todos os direitos reservados. </p>
+            </div>
+        </footer>
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
